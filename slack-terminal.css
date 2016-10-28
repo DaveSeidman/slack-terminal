@@ -119,6 +119,6 @@
             border-bottom: none;
         }
        #col_channels_bg {
-           background: none;
+           background: black !important;
        }
     </style>
