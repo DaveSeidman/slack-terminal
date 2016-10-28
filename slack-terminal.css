@@ -1,5 +1,122 @@
-.message_body {
-  font-family: "courier";
-  font-size: 12px;
-  line-height: 25px;
-}
+<style>
+
+        * {
+            font-family: "Courier New" !important;
+            font-size: 12px !important;
+            font-weight: 900;
+            line-height: 15px !important;
+        }
+
+        #client-ui {
+            background-color: black;
+        }
+
+        #footer {
+
+            background: none !important;
+        }
+
+        .day_container .day_msgs {
+
+            border-top:none !important;
+        }
+        .day_divider {
+
+            text-align: left;
+            color: #f0f0f0;
+        }
+        .day_divider_label {
+
+            background-color: black !important;
+        }
+
+
+        #messages_container {
+            background-color: black !important;
+        }
+        .light_theme ts-message .message_content .message_sender {
+
+            display: inline-block !important;
+            width:100px;
+            color: #00FF00 !important;
+
+        }
+
+        ts-message .message_body {
+
+            display: inline-block !important;
+            font-size: 12px;
+            line-height: 15px;
+            color: #f0f0f0;
+        }
+        ts-message .message_icon {
+
+            display: none !important;
+        }
+
+        .light_theme ts-message .message_content .timestamp {
+
+            display: inline-block !important;
+            float: left;
+            font-family: "Courier New" !important;
+            width:65px !important;
+
+        }
+
+        ts-message .message_content {
+
+            margin-left: 10px !important;
+        }
+
+        ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight),
+        ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight) {
+            background:rgba(255,255,255,.1) !important;
+        }
+
+        #team_menu {
+            background: black !important;
+            border-bottom: none !important;
+        }
+
+        #col_channels {
+            background-color: black;
+        }
+        #col_channels_footer {
+            background: none !important;
+        }
+
+        .channels_list_holder ul li {
+            height:24px;
+        }
+
+
+        #messages-input-container #message-input {
+            background: black !important;
+            color: white !important;
+            font-weight: 900 !important;
+            border: none !important;
+        }
+
+        #footer:not(.footer_msg_input) #primary_file_button {
+
+            background: black;
+            color: white;
+            border: none;
+        }
+
+        #primary_file_button .ts_icon  {
+
+            top: 5px;
+        }
+
+        .channel_header {
+
+            background: none;
+        }
+        #client_body:not(.onboarding):before {
+
+            background: none;
+            border-bottom: none;
+        }
+
+    </style>
